@@ -8,7 +8,12 @@ f.close()
 
 # First line, numbers for bingo
 n_list = [int(i) for i in init.pop(0).split(',')]
-grids = []
+
+
+class grid:
+    def __init__(self):
+        pass
+
 
 # 2D list for the grids
 for line in init:
